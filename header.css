@@ -1,0 +1,152 @@
+@media (min-width: 1024px) {
+  header {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    min-width: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    color: white;
+  }
+  #header1 {
+    width: 300px;
+    font-size: xx-small;
+    font-family: Fredoka;
+    letter-spacing: 2px;
+    color: white;
+  }
+  h1 {
+    margin-left: 20px;
+    width: fit-content;
+  }
+  #header2 {
+  }
+  #header3 {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    gap: ;
+  }
+  #search {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+  }
+  #search::placeholder {
+    text-align: center;
+    font-family: Poppins;
+  }
+  #search:focus {
+    transform: scale(2);
+    margin-top: 50px;
+    font-size: small;
+    text-transform: capitalize;
+  }
+  #search:not(#search) {
+    transform: scale(0);
+  }
+  input {
+    margin-top: 10px;
+  }
+
+  a {
+    color: unset;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #menu_btn_container {
+    width: 300px;
+    object-fit: contain;
+  }
+  #header3 > a {
+    width: fit-content;
+    object-fit: contain;
+  }
+  .menu_btn {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: Poppins;
+  }
+}
+@media (min-width: 320px) and (max-width: 790px) {
+  header {
+    grid-template-rows: auto auto auto;
+    text-align: center;
+  }
+  body {
+    background-color: black;
+  }
+
+  #header1 {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-size: medium;
+    font-family: Fredoka;
+    letter-spacing: 2px;
+    color: white;
+  }
+  h1 {
+    text-align: center;
+  }
+  #header2 {
+  }
+  #header3 {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+  }
+  #search {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+  }
+  #search::placeholder {
+    text-align: center;
+    font-family: Poppins;
+  }
+  #search:focus {
+    transform: scale(2);
+    margin-top: 50px;
+    font-size: small;
+    text-transform: capitalize;
+  }
+  #search:not(#search) {
+    transform: scale(0);
+  }
+  input {
+    margin-top: 10px;
+  }
+
+  a {
+    color: unset;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #menu_btn_container {
+    width: 300px;
+    object-fit: contain;
+  }
+  #header3 > a {
+    width: fit-content;
+    object-fit: contain;
+  }
+  .menu_btn {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: Poppins;
+  }
+}
