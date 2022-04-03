@@ -7,7 +7,7 @@
   main{
   }
   #section1 {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: black;
     width: 100%;
     min-height: 200px;
     display: grid;
@@ -50,9 +50,15 @@
   h2{
     color: white;
     padding-left: 10px;
-    font-family: monospace;
+    font-family: Poppins;
     text-transform: capitalize;
-    font-size: large;
+    font-size: 30px;
+    width: 100%
+  }
+  #section2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
   }
 }
 @media (min-width: 320px) and (max-width: 790px) {
@@ -94,5 +100,16 @@
     text-align: center;
     margin-bottom: 20px;
     background-attachment: fixed;
+  }
+  #preview_container > img{
+    display: none;
+  }
+  h2{
+    color: white;
+    padding-left: 10px;
+    font-family: Poppins;
+    text-transform: capitalize;
+    font-size: 200%;
+    width: 100%
   }
 }
