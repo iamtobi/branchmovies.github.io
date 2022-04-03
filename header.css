@@ -78,6 +78,7 @@
   header {
     grid-template-rows: auto auto auto;
     text-align: center;
+    position: fixed;
   }
   body {
     background-color: black;
