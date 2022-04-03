@@ -78,7 +78,8 @@
   header {
     grid-template-rows: auto auto auto;
     text-align: center;
-    position: fixed;
+    position: sticky;
+    width: 100%;
     background-color: black;
     margin-bottom: 100px;
   }
