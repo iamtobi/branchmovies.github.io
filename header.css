@@ -114,9 +114,7 @@
     text-align: center;
     font-family: Poppins;
   }
-  #search:not(#search) {
-    transform: scale(0);
-  }
+
   input {
     margin-top: 10px;
   }
